@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-body {
+    font-family: 'HankenGrotesk';
+}
+
+.rounded-circle1{
+    border-radius: 500px;
+}
+
+.bg-gradient-circle {
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+
+.bg-background{
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.text-color1{
+    color:hsl(241, 100%, 89%);
+}
+
+.bg-background{
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.text-red{
+    color: hsl(0, 100%, 67%);
+}
+
+.text-yellow{
+    color: hsl(39, 100%, 56%);
+}
+
+.text-green{
+    color: hsl(166, 100%, 37%);
+}
+
+.text-blue{
+    color: hsl(234, 85%, 45%);
+}  
+
+.bg-dark{
+    background-color: hsl(224, 30%, 27%);
+}
+
+.custom-btn {
+    background-color: hsl(224, 30%, 27%);
+}
+
+.custom-btn:hover {
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
